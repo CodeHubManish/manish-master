@@ -6,3 +6,9 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     hostname: localhost
+    
+microservice:
+  company-portal:
+    endpoints:
+      endpoint:
+        uri: http://employee-portal/employee/company/
